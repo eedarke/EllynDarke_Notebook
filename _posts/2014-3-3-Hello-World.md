@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Welcome!
 ---
 
 Welcome to my open lab notebook. Kicking off 2024 by participating in open science and publicizing my work! 
