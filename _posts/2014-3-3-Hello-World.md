@@ -3,8 +3,6 @@ layout: post
 title: You're up and running!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Welcome to my open lab notebook. Kicking off 2024 by participating in open science and publicizing my work! 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+This notebook is currently a reflection of the work I am completing for my senior thesis at the University of Miami Rosenstiel School for Marine, Atmospheric, and Earth Science. 
