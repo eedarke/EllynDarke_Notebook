@@ -1,0 +1,18 @@
+---
+layout: post
+title: RNA Extraction Protocol for Bulk RNA-seq 
+---
+
+RNA Extraction for Bulk RNA-seq Bleaching Experiment
+samples: 66
+
+Step 1: Homogenization
+1. Thaw samples to room temperature 
+2. Vortex samples on 10rpm for 15 mins
+3. Allow samples to rest for 5 mins
+4. Vortex samples on 10rpm for 15 mins
+5. Place samples back in the freezer 
+
+Step 2: RNA Extractions using Quick-RNA Miniprep Plus Protocol
+1. Prepare Proteinase K at 60mg of PK: 3120ul of PK Storage Buffer
+2. Prepare master mix of Proteinase K at 15ul of PK Storage Buffer x 70 samples (gice yourself wiggle room) : 30ul of PK Digestion Buffer  x 70 samples 
