@@ -1,14 +1,7 @@
-# This script is designed to create a markdown file that
-# generates a formatted Jekyll header. It prompts the user
-# for a phrase and that phrase is utilized in the name of
-# the markdown file that is created.
-
-# To run, copy this file to your desired directory.
-# Change to the directory where you just copied this file.
-# In a terminal prompt, type:. post_template.sh
+# Welcome to my online lab notebook!
 
 # Set variables
-POST_DATE=$(date '+%Y-%m-%d')
+POST_DATE=$(2024-14-08')
 MD_LINE="---"
 LAYOUT="layout: post"
 TITLE="title: "
