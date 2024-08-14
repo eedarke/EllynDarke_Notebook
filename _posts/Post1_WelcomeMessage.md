@@ -1,42 +1,15 @@
-# Welcome to my online lab notebook!
+---
+layout: post
+title: Lab Notebook Generation
+date: '2024-08-14'
+---
 
-# Set variables
-POST_DATE=$(2024-14-08')
-MD_LINE="---"
-LAYOUT="layout: post"
-TITLE="title: "
-DATE_LINE="date: "
-CATEGORIES="categories: "
-TAGS="tags: "
+Lab Intro to Open Lab Notebook on GitHub
 
-# Ask user for input
-echo "Enter title:"
-read PHRASE
-echo "You entered $PHRASE"
-
-echo "Enter categories: (Analysis, Goals, Processing, Protocols)"
-read PHRASE2
-echo "You entered $PHRASE2"
-
-echo "Enter tags: include []"
-read PHRASE3
-echo "You entered $PHRASE3"
-
-# Remove spaces from PHRASE and replace with hyphens
-FORMATTED_PHRASE="$(echo -ne "${PHRASE}" | tr [:space:] '-')"
-
-# Save new filename using POST_DATE and FORMATTED_PHRASE variables.
-NEW_MD_FILE="$(echo -n "${POST_DATE}"-"${FORMATTED_PHRASE}")".md
-
-
-# Prints formatted Jekyll header utilizing POST_DATE and user-entered PHRASE.
-# Writes contents to NEW_MD_FILE
-printf "%s\n%s\n%s%s\n%s'%s'\n%s%s\n%s%s\n%s%s\n" "$MD_LINE" "$LAYOUT" "$TITLE" "$PHRASE" "$DATE_LINE" "$POST_DATE" "$CATEGORIES" "$PHRASE2" "$TAGS" "$PHRASE3" "$MD_LINE" >> \
-"$NEW_MD_FILE"
-
-# Opens NEW_MD_FILE in nano text editor for editing.
-nano "$NEW_MD_FILE"
-
+Step1: fork repository from lab notebook of interest
+Step2: edit config file on your local respository with your own personal information
+Step3: push repository to Github
+Follow https://github.com/barryclark/jekyll-now for more detailed instructions
 
 # Use git to stage, commit, and push NEW_MD_FILE to GitHub
 git add "$NEW_MD_FILE"
